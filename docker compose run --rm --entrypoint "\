@@ -1,6 +1,0 @@
-docker compose run --rm --entrypoint "\
- certbot certonly --webroot -w /var/www/certbot \
- --email malykhinig@gmail.com
- -d gibidon.online
- --agree-tos
- --force-renewal" certbot
